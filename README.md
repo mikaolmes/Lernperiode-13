@@ -33,3 +33,12 @@ In dieser Lernperiode konzentriere ich mich gezielt auf den Tech-Stack meiner zu
 3. **Abschluss:** Tutorials für jede Technologie schreiben
 
 
+## 09.01.2026
+
+Heute habe ich in Next.js die Grundlagen repetiert und danach einige Anpassungen gemacht um zu schauen was ich alles noch präsent habe, nach den Ferien usw. Hat sich herausgestellt, das eines noch ziemlich da war, danach habe ich auch schon angefangen das Tutorial zu Programmieren.
+
+## 16.01.2026
+- [ ] Pocketbase Datenbank aufsetzten (verlangt das Tutorial, was sehr passend ist, da es meine Firma ebenfalls verlangt)
+- [ ] Ordnerstruktur wie im Tutorial fertigstellen
+- [ ] Projekt nachbauen wie auf Tutorial
+- [ ] Zusatz zu Tutorial Projekt: mit Tailwind CSS verbinden und schönes Design machen.
