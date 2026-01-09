@@ -5,7 +5,7 @@ In dieser Lernperiode konzentriere ich mich gezielt auf den Tech-Stack meiner zu
 
 ---
 
-## echnologien
+## Technologien
 
 ### 1. Next.js (Webentwicklung)
 **Begründung:** Meine Praktumsfirma wird Next.js für die Frontend-Entwicklung einsetzen.
