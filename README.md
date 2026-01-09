@@ -19,7 +19,7 @@ In dieser Lernperiode konzentriere ich mich gezielt auf den Tech-Stack meiner zu
 * **Ressourcen:** * [TypeScript Grundlagen](https://www.youtube.com/watch?v=H91aqUHn8sE)
     * [Praxisprojekt: To-Do Liste](https://www.youtube.com/watch?v=jBmrduvKl5w)
 
-### 3. Go Programming (Backend & Performance)
+### 3. Go Programming (Backend)
 **Begründung:** Go ist Neuland für mich, wird aber von der Firma für performante Backend-Systeme gefordert. Daher werde ich hier die meiste Zeit investieren.
 * **Ziel:** Syntax-Grundlagen verstehen und einfache Logik implementieren.
 * **Ressourcen:** * [Go Beginner Tutorial](https://www.youtube.com/watch?v=446E-r0rXHI)
