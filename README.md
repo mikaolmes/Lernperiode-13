@@ -12,7 +12,7 @@ In dieser Lernperiode konzentriere ich mich gezielt auf den Tech-Stack meiner zu
 * **Projekt:** Erstellung einer Web-App zur Notizverwaltung.
 * **Ressource:** [Next.js Tutorial - Full Course](https://www.youtube.com/watch?v=__mSgDEOyv8)
 
-### 2. TypeScript (Typensicherheit & Backend)
+### 2. TypeScript (Webentwicklung & Backend)
 **Begründung:** TypeScript wird in der Firma sowohl im Frontend als auch im Backend genutzt.
 * **Projekt:** Entwicklung einer funktionalen To-Do Liste.
 * **Fokus:** Typisierung, Interfaces und die Vorteile gegenüber Standard-JavaScript verstehen.
