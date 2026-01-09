@@ -1,4 +1,4 @@
-# Lernperiode 13: Vorbereitung auf das Praktikum
+# Lernperiode 13
 
 ## Übersicht
 In dieser Lernperiode konzentriere ich mich gezielt auf den Tech-Stack meiner zukünftigen Praktumsfirma. Ziel ist es, ein solides Grundverständnis für die Web- und Backend-Entwicklung mit modernen Technologien zu erlangen.
