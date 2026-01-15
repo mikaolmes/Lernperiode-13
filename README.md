@@ -39,6 +39,6 @@ Heute habe ich in Next.js die Grundlagen repetiert und danach einige Anpassungen
 
 ## 16.01.2026
 - [X] Pocketbase Datenbank aufsetzten (verlangt das Tutorial, was sehr passend ist, da es meine Firma ebenfalls verlangt)
-- [ ] Ordnerstruktur wie im Tutorial fertigstellen
+- [X] Ordnerstruktur wie im Tutorial fertigstellen
 - [ ] Projekt nachbauen wie auf Tutorial
 - [ ] Zusatz zu Tutorial Projekt: mit Tailwind CSS verbinden und schönes Design machen.
