@@ -47,9 +47,9 @@ Heute habe ich zuerst das Tutorial für Next.js gemacht, doch mit einem Gespräc
 
 ## 23.01.2026
 - [X] Löschung von Daten in Code hinzufügen (ohne Hilfe)
-- [ ] Herausfinden wie ich Fotos speichern kann mit Go
-- [ ] Herausfinden wie ich eine Datenbank (z.B. mit pocketbase) mit Go verbinden kann und dort Fotos speichern kann
-- [ ] Fotodatenbank Projekt anfangen --> Datenbank aufsetzten
+- [X] Herausfinden wie ich Fotos speichern kann mit Go
+- [X] Herausfinden wie ich eine Datenbank (z.B. mit pocketbase) mit Go verbinden kann und dort Fotos speichern kann
+- [X] Fotodatenbank Projekt anfangen --> Datenbank aufsetzten
 
 Heute habe ich zuerst nochmal den Code vom Tutorial angeschaut und habe die Delete Funktion hinzugefügt. Am Anfang hatte ich ein paar Probleme, weil ich vergessen hatte ganz am Schluss den Endpoint in die Main Funktion hinzuzufügen. Danach ging es zwar immer noch nicht, aber das war, weil ich das Programm nochmal neu starten musste, danach ging es. Hier den Code der neu dazugefügt wurde.
 
@@ -69,3 +69,5 @@ func deleteTodo(context *gin.Context) {
     context.IndentedJSON(http.StatusNotFound, gin.H{"message": "todo not found"})
 }
 ```
+
+Für die Fotodatenbank wpllte ich PocketBase verwenden, da ich das schon kannte. Ich wollte testen, ob ich es verwenden könnte. Und da PocketBase in Go geschrieben ist, konnte ich es tatsächlich sehr einfach importieren und verwenden. Anschließend habe ich die Datenbank eingerichtet und die Collection 'photos' inklusive 'image'-Feld erstellt."
