@@ -53,7 +53,8 @@ Heute habe ich zuerst das Tutorial für Next.js gemacht, doch mit einem Gespräc
 
 Heute habe ich zuerst nochmal den Code vom Tutorial angeschaut und habe die Delete Funktion hinzugefügt. Am Anfang hatte ich ein paar Probleme, weil ich vergessen hatte ganz am Schluss den Endpoint in die Main Funktion hinzuzufügen. Danach ging es zwar immer noch nicht, aber das war, weil ich das Programm nochmal neu starten musste, danach ging es. Hier den Code der neu dazugefügt wurde.
 
-''' func deleteTodo(context *gin.Context) {
+```
+func deleteTodo(context *gin.Context) {
     id := context.Param("id")
 
     for i, t := range todos {
@@ -66,4 +67,5 @@ Heute habe ich zuerst nochmal den Code vom Tutorial angeschaut und habe die Dele
     }
 
     context.IndentedJSON(http.StatusNotFound, gin.H{"message": "todo not found"})
-} '''
+}
+```
