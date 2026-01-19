@@ -46,7 +46,22 @@ Heute habe ich in Next.js die Grundlagen repetiert und danach einige Anpassungen
 Heute habe ich zuerst das Tutorial für Next.js gemacht, doch mit einem Gespräch mit meinem Lehrer (Herr Colic), habe ich gemerkt, das ich nicht drei Sprachen machen muss, sondern nur eine. Deshalb habe ich mir Go vogenommen. Ich habe ein wenig herumprobiert und die Datei ebenfalls hochgeladen (HelloWorld). Danach habe ich eine Rest-API mithilfe eines Tutorials gecoded. Ich habe es sogar geschafft es fertig zu machen. Ich kann jetzt mit verschiedenen Endpunkten Daten abrufen, bis auf die Löschung von Daten, das hat das Tutorial nicht vorgestellt. Den Code vom Tutorial habe ich hochgeladen, Sie müssen den Code einfach mit diesem Befehl im Terminal starten: ```go run main.go```
 
 ## 23.01.2026
-- [ ] Löschung von Daten in Code hinzufügen (ohne Hilfe)
+- [X] Löschung von Daten in Code hinzufügen (ohne Hilfe)
 - [ ] Herausfinden wie ich Fotos speichern kann mit Go
 - [ ] Herausfinden wie ich eine Datenbank (z.B. mit pocketbase) mit Go verbinden kann und dort Fotos speichern kann
 - [ ] Fotodatenbank Projekt anfangen --> Datenbank aufsetzten
+
+Heute habe ich zuerst nochmal den Code vom Tutorial angeschaut und habe die Delete Funktion hinzugefügt. Am Anfang hatte ich ein paar Probleme, weil ich vergessen hatte ganz am Schluss den Endpoint in die Main Funktion hinzuzufügen. Danach ging es zwar immer noch nicht, aber das war, weil ich das Programm nochmal neu starten musste, danach ging es. '''func deleteTodo(context *gin.Context) {
+    id := context.Param("id")
+
+    for i, t := range todos {
+        if t.ID == id {
+            todos = append(todos[:i], todos[i+1:]...)
+
+            context.IndentedJSON(http.StatusOK, gin.H{"message": "todo deleted"})
+            return
+        }
+    }
+
+    context.IndentedJSON(http.StatusNotFound, gin.H{"message": "todo not found"})
+}'''
