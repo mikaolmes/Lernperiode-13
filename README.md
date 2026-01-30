@@ -76,4 +76,6 @@ Für die Fotodatenbank wpllte ich PocketBase verwenden, da ich das schon kannte.
 
 - [X] html File erstellen, eine einfache Benutzeroberfläche um Bilder hochladen zu können.
 
+Heute habe ich eine HTML Datei erstellt, die es vereinfacht, Bilder hochzuladen, und man kann auch alle Bilder anschauen, leider aber nur den Namen und die ID. Danach habe ich das Tutorial dazu geschrieben.
+
 
