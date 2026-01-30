@@ -74,7 +74,6 @@ Für die Fotodatenbank wpllte ich PocketBase verwenden, da ich das schon kannte.
 
 ## 30.01.2026
 
-- [ ] Daten nach start des programms alle Bilder der Datenbank abrufen.
-- [ ] html File erstellen, eine einfache Benutzeroberfläche um Bilder hochladen zu können.
+- [X] html File erstellen, eine einfache Benutzeroberfläche um Bilder hochladen zu können.
 
 
