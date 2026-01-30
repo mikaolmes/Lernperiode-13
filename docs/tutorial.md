@@ -162,6 +162,7 @@ This is a very important step, because without this step, you won't have a Datab
   - Click on "New field" and select **text**. Name this field `title`.
   - Create another field and select the **file** type. Name it `photo`.
 5. Now make sure to have your API Rules empty, or else it won't allow you to see your files when using your Photo Database. If you did it correct, it should look like this:
+
 <img width="666" height="523" alt="image" src="https://github.com/user-attachments/assets/fba0c218-4031-43bd-a6e1-622746e3d23d" />
 
    Click on save and your done with setting up your Database with PocketBase.
