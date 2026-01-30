@@ -74,7 +74,7 @@ Für die Fotodatenbank wpllte ich PocketBase verwenden, da ich das schon kannte.
 
 ## 30.01.2026
 
-- [ ] Testen ob ich Photos hochladen kann
-- [ ] Fehlermeldung implementieren wenn keine Überschrift für das Bild hinzugefügt wurde
 - [ ] Daten nach start des programms alle Bilder der Datenbank abrufen.
 - [ ] html File erstellen, eine einfache Benutzeroberfläche um Bilder hochladen zu können.
+
+
